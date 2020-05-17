@@ -4,11 +4,11 @@ import Navbar from '../components/Navbar.js';
 
 const Header = () => {
     return(
-        <div>
+        <div className="head-main">
 
             <Navbar />
 
-
+            
 
         </div>
     )

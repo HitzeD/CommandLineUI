@@ -1,0 +1,35 @@
+.nav-main {
+    display: flex;
+
+    .title {
+        margin-top: 1rem;
+        width: 70%;
+
+        .main {
+            font-size: 2rem;
+            margin-left: 5rem;
+        }
+    }
+
+    .item-list {
+        margin-top: 1.1rem;
+        width: 30%;
+
+        .menu {
+            display: flex;
+            justify-content: space-evenly;
+            // flex-direction: row-reverse;
+
+            .item {
+                font-size: 1.7rem;
+                justify-items: baseline;
+                text-decoration: none;
+            }
+        }
+
+    }
+}
+
+.activeNav {
+    color: red; // add scss variable color
+}
